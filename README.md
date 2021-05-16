@@ -1,17 +1,22 @@
-# Nome do projeto
+# Fake News
 
-Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
+Nosso projeto é fazer um site na web com o tema de fake news. 
+O propósito é ajudar as pessoas a aprender mais sobre as fake news e dar dicas de como reagir as fake news. Também, será colocado um quiz para os usuários responderem que no final, ele dará a resposta de alta, média ou baixa probabilidade da notícia ser falsa.
 
 ## Alunos integrantes da equipe
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Cecília Capurucho Bouchardet
+* Enrico Menicucci Gomes
+* João Vitor
+* José Helvécio Filho
+* Lucas Fiori
+* Pedro De Melo
+* Samuel Barbosa Santos
+
 
 ## Professores responsáveis
 
-* Nome completo do professor 1
+* Rommel Vieira
 * Nome completo do professor 2
 
 ## Instruções de utilização
