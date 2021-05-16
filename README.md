@@ -8,7 +8,7 @@ O propósito é ajudar as pessoas a aprender mais sobre as fake news e dar dicas
 * Cecília Capurucho Bouchardet
 * Enrico Menicucci Gomes
 * João Vitor Ferreira de Moura
-* José Helvécio Filho
+* José Helvécio de Oliveir Filho
 * Lucas Fiori Magalhães Machado
 * Pedro De Melo
 * Samuel Barbosa Santos
