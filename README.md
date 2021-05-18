@@ -17,7 +17,10 @@ O propósito é ajudar as pessoas a aprender mais sobre as fake news e dar dicas
 ## Professores responsáveis
 
 * Rommel Vieira
-* Nome completo do professor 2
+* João Carlos Oliveira Caetano
+* Ilo Amy Saldanha Rivero
+* Cristiane Neri Nobre
+* Fatima De Lima Procopio Duarte
 
 ## Instruções de utilização
 
