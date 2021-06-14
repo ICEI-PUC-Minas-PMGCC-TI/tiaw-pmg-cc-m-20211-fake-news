@@ -16,7 +16,7 @@
     <title>Not Fake</title>
 </head>
 
-<body>
+<body onload="executaPesquisa ()">
     <header class="container-fluid header bg-light">
         <div class="row">
             <div class="col-12 header_area">
@@ -32,10 +32,10 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                     <li class="nav-item px-1">
-                                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                                     </li>
                                     <li class="nav-item px-1">
-                                        <a class="nav-link " href="/fakenews.html">Fake News</a>
+                                        <a class="nav-link " href="fakenews.html">Fake News</a>
                                     </li>
                                     <li class="nav-item px-1">
                                         <a class="nav-link " href="#">Quiz</a>
@@ -155,16 +155,14 @@
                             <img src="img/Untitled.png" alt="" style="width: 100%" height="auto">
                         </div>
                         <div class="div-barra col-12 col-sm-12 col-md-12 col-lg-9 col-xl-8">
-                            <h1 class="titulo-novidade">Noticia 1 - xx/xx/xxxx</h1>
-                            <p class="textin-nov">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab deserunt
-                                vel itaque aliquid repudiandae repellendus natus aspernatur non ullam unde ipsam atque
-                                pariatur dicta est perspiciatis in harum distinctio ea minus, enim odit error,
-                                laudantium et? Consequatur officiis laboriosam, id aspernatur nihil inventore fuga, eos,
-                                quibusdam eum cum dignissimos recusandae magni suscipit dolore. Assumenda temporibus,
-                                esse consequatur eius ad unde, illo nulla suscipit optio eaque modi porro repellat, quo
-                                ipsum.</p>
-                            <button class="btn-txt">Compartilhar</button> <button class="btn-txt">Comentar</button>
-                            <button class="btn-star"><i class="fas fa-star">Favoritar</i></button>
+                            <div id="tela">
+                                <div class="box-noticia">
+
+                                </div>
+                            </div>
+                            <div id="favoritar">
+                                
+                            </div>
                         </div>
                         <hr>
                     </div>
@@ -175,17 +173,7 @@
                             <img src="img/Untitled.png" alt="" style="width: 100%" height="auto">
                         </div>
                         <div class="div-barra col-12 col-sm-12 col-md-12 col-lg-9 col-xl-8">
-                            <h1 class="titulo-novidade">Noticia 2 - xx/xx/xxxx</h1>
-                            <p class="textin-nov">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-                                debitis laudantium distinctio aperiam et nulla fugit facere, aut commodi explicabo ipsa
-                                aliquam non possimus quos reiciendis iure eveniet consequuntur inventore dolor
-                                repudiandae velit incidunt quasi. Tempora cum eligendi, architecto porro molestiae
-                                aspernatur voluptatum dolorum molestias perspiciatis maxime. Eaque, temporibus
-                                doloremque quae fugit repudiandae laudantium voluptatem alias enim consectetur, beatae
-                                quod eum porro, officia accusantium dolorem. Corrupti voluptatum totam temporibus alias.
-                            </p>
-                            <button class="btn-txt">Compartilhar</button> <button class="btn-txt">Comentar</button>
-                            <button class="btn-star"><i class="estrelinha1 fas fa-star">Favoritar</i></button>
+
                         </div>
                         <hr>
                         <a href="" class="text-after-new">
@@ -226,7 +214,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="/favortos.html" class="nav-link py-3 border-bottom" title="Customers"
+                                <a href="favoritos.html" class="nav-link py-3 border-bottom" title="Customers"
                                     data-bs-toggle="tooltip" data-bs-placement="right">
                                     <i class=" estrelinha2 fas fa-star"></i>
                                     <!---<svg class="bi" width="24" height="24">
@@ -265,12 +253,14 @@
 
 
 
+    <script src="estrela.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
         crossorigin="anonymous"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="estrela.js"></script>
 </body>
 
 </html>
